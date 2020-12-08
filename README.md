@@ -7,5 +7,7 @@ This script will attempt a DNS zone file transfer with any domain you give it. G
 
 # Python generation based fuzzer
 
-its in the name. fuzzes username and password field but not sure if itll work on other websites. 
+you would use this in conjuction with a debugger to get a general appx of when the buffer gets overflowed . you should keep modifying this in conjuction with some tools in msf.
+
+
 
